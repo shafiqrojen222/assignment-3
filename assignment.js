@@ -1,52 +1,52 @@
-// feetToMile
+// feetToMile//
 
-// function feetToMile(feet)
-// {
-//     var mile=feet*0.00018939;
-//     return mile;
-// }
-// var result= feetToMile(2000);
-// console.log(result);
+function feetToMile(feet)
+{
+    var mile=feet*0.00018939;
+    return mile;
+}
+var result= feetToMile(2000);
+console.log(result);
 
-// woodCalculator
+// woodCalculator//
 
-// function woodCalculator(chair,table,bed){
+function woodCalculator(chair,table,bed){
 
-//     var chair=chair*1;
-//     var table =table*3;
-//     var bed = bed*5;
+    var chair=chair*1;
+    var table =table*3;
+    var bed = bed*5;
 
-//     var totalWood = chair+table+bed;
+    var totalWood = chair+table+bed;
 
-//     return totalWood;
+    return totalWood;
 
-// }
-// var result = woodCalculator(5,5,5);
-// console.log(result);
+}
+var result = woodCalculator(5,5,5);
+console.log(result);
 
-// brickCalculator
+// brickCalculator//
 
-// function brickCalculator(floor)
-// {
-//   if(floor>=1 && floor<=10)
-//   {
-//       var brickNeeded = 15*1000;
-//       return brickNeeded;
-//   }
-//   else if(floor>=11 && floor<=20)
-//   {
-//       var brickNeeded=12*1000;
-//       return brickNeeded;
-//   }
-//   else{
-//       var brickNeeded =10*1000;
-//       return brickNeeded
-//   }
-// }
-// var totalBrick = brickCalculator(10);
-// console.log(totalBrick);
+function brickCalculator(floor)
+{
+  if(floor>=1 && floor<=10)
+  {
+      var brickNeeded = 15*1000;
+      return brickNeeded;
+  }
+  else if(floor>=11 && floor<=20)
+  {
+      var brickNeeded=12*1000;
+      return brickNeeded;
+  }
+  else{
+      var brickNeeded =10*1000;
+      return brickNeeded
+  }
+}
+var totalBrick = brickCalculator(10);
+console.log(totalBrick);
 
-// tinyFriend
+// tinyFriend//
 
 function tinyFriend(friend)
 {
